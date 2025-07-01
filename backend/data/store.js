@@ -1,0 +1,26 @@
+module.exports = {
+  users: [],
+  questions: [
+    { id: 1, title: "Two Sum", difficulty: "Easy", acceptance: "45%" },
+    { id: 2, title: "Add Two Numbers", difficulty: "Medium", acceptance: "37%" },
+    { id: 3, title: "Longest Substring Without Repeating Characters", difficulty: "Medium", acceptance: "33%" },
+    { id: 4, title: "Median of Two Sorted Arrays", difficulty: "Hard", acceptance: "29%" },
+    { id: 5, title: "Longest Palindromic Substring", difficulty: "Medium", acceptance: "28%" },
+    { id: 6, title: "Zigzag Conversion", difficulty: "Medium", acceptance: "41%" },
+    { id: 7, title: "Reverse Integer", difficulty: "Easy", acceptance: "27%" },
+    { id: 8, title: "String to Integer (atoi)", difficulty: "Medium", acceptance: "17%" },
+    { id: 9, title: "Palindrome Number", difficulty: "Easy", acceptance: "56%" },
+    { id: 10, title: "Regular Expression Matching", difficulty: "Hard", acceptance: "25%" },
+    { id: 11, title: "Container With Most Water", difficulty: "Medium", acceptance: "54%" },
+    { id: 12, title: "Integer to Roman", difficulty: "Medium", acceptance: "57%" },
+    { id: 13, title: "Roman to Integer", difficulty: "Easy", acceptance: "53%" },
+    { id: 14, title: "Longest Common Prefix", difficulty: "Easy", acceptance: "41%" },
+    { id: 15, title: "3Sum", difficulty: "Medium", acceptance: "30%" },
+    { id: 16, title: "3Sum Closest", difficulty: "Medium", acceptance: "45%" },
+    { id: 17, title: "Letter Combinations of a Phone Number", difficulty: "Medium", acceptance: "44%" },
+    { id: 18, title: "4Sum", difficulty: "Medium", acceptance: "37%" },
+    { id: 19, title: "Remove Nth Node From End of List", difficulty: "Medium", acceptance: "38%" },
+    { id: 20, title: "Valid Parentheses", difficulty: "Easy", acceptance: "39%" },
+
+  ],
+};

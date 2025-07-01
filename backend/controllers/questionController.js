@@ -2,11 +2,19 @@ const { questions } = require("../data/store");
 
 exports.getQuestions = (req, res) => {
   if (!questions || questions.length === 0) {
-    console.log("Returning empty questions");
-    return res.json({ columns: [], data: [] });
+    return res.json([]);
   }
 
-  const columns = Object.keys(questions[0]);
-  console.log("Returning questions:", { columns, data: questions }); // 🔥 log here
-  res.json(questions);
+  res.json(questions); // ✅ return flat array only
+};
+
+exports.getQuestionById = (req, res) => {
+  const id = parseInt(req.params.id);
+  const question = questions.find((q) => q.id === id);
+
+  if (!question) {
+    return res.status(404).json({ message: "Question not found" });
+  }
+
+  res.json(question);
 };

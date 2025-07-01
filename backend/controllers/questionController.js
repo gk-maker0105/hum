@@ -8,5 +8,5 @@ exports.getQuestions = (req, res) => {
 
   const columns = Object.keys(questions[0]);
   console.log("Returning questions:", { columns, data: questions }); // 🔥 log here
-  res.json({ columns, data: questions });
+  res.json(questions);
 };
